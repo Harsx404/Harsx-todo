@@ -5,9 +5,12 @@ import tailwindcss from 'tailwindcss'
 
 export default defineConfig({
   plugins: [react()],
+  
   css: {
     postcss: {
       plugins: [tailwindcss()],
     },
-  }
+  },
+
+  base:"/Harsx-todo/"
 })
